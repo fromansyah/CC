@@ -1,0 +1,656 @@
+/* 
+    Document   : button_style
+    Created on : May 10, 2013, 10:55:57 AM
+    Author     : fromansyah
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.button_notif_info
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/infoicon_rnd_status.gif); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 3px;  /* equivalent to 'top left' */
+                border: 1px solid #FFFFFF;           /* assuming we don't want any borders */
+                border-radius:6px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 25px;     /* make text start to the right of the image */
+                color: #527084;
+                font-weight: bold;
+                font-size: 11px;
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_notif_warning
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/warn.gif); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 3px;  /* equivalent to 'top left' */
+                border: 1px solid #FFFFFF;           /* assuming we don't want any borders */
+                border-radius:6px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 25px;     /* make text start to the right of the image */
+                color: #527084;
+                font-weight: bold;
+                font-size: 11px;
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_send_confirm
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/missing_2.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_missing
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/image_missing.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_upload
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/upload_2.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+
+.button_cancel
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/150.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+
+.button_cancel_2
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/114.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_approve
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/001_18_2.gif); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_send
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/email_send_2.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_reject
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/001_19_2.gif); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_close
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/101.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_ok
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/001_18_2.gif); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+
+.button_calculate
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/051.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_back
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/118.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_backup
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/001_47s.gif); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+            
+            
+.button_payment
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/152.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_slip
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/059.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_print
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/062.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_tax
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/155.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_thr
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/154.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_bonus
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/153.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+ 
+.button_add
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/103.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_delete
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/104.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_delete_notif
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/001_05.gif); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_save
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/096.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_excel
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/excel_2.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_finish
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/Note_accept.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_logout
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/glbl_logout.gif); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 3px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:6px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 22px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                color: #527084;
+                font-weight: bold;
+                font-size: 10px;
+                vertical-align: middle; /* align the text vertically centered */
+            }
+
+.button_login
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/183.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 3px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:6px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 22px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                color: #527084;
+                font-weight: bold;
+                font-size: 10px;
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.button_home
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/045.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 3px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:6px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 22px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                color: #527084;
+                font-weight: bold;
+                font-size: 10px;
+                vertical-align: middle; /* align the text vertically centered */
+            }
+
+.button_run
+            {
+/*            background: url(../images/102.png) no-repeat;
+            cursor:pointer;
+                        border: none;*/
+                        
+                background-image: url(../images/131.png); /* 16px x 16px */
+                /*background-color: transparent;  make the button transparent */
+                background-repeat: no-repeat;  /* make the background image appear only once */
+                background-position: 5px 6px;  /* equivalent to 'top left' */
+                border: 1px solid #989898;           /* assuming we don't want any borders */
+                border-radius:10px;
+                cursor: pointer;        /* make the cursor like hovering over an <a> element */
+                height: 30px;           /* make this the size of your image */
+                padding-left: 21px;     /* make text start to the right of the image */
+                vertical-align: middle; /* align the text vertically centered */
+            }
+            
+.input_text
+    {
+        border-radius: 6px;
+        border: 1px solid #CCC;
+        padding: 6px;
+        font-weight: 200;
+        font-size: 12px;
+        font-family: Verdana;
+        color: #527084;
+        box-shadow: 1px 1px 5px #CCC;
+    }
+    
+textarea
+{
+/*width: 200px;
+height: 90px;*/
+border-radius: 6px;
+border: 1px solid #CCC;
+padding: 6px;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+color: #527084;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+fieldset {
+    border-radius: 10px;
+    /*background: #eee;*/
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    position: relative;
+    border: 2px groove threedface;
+}
+legend {
+    position: absolute;
+    top: -5px;
+    /*background: #fff;*/
+    padding: 10px 20px;
+    /*border: 2px groove threedface;*/
+    border-top: none;
+    /*box-shadow: inset 0 -5px 5px rgba(0,0,0,.2);*/
+    text-shadow: 1px 1px 2px rgba(0,0,0,.3);
+    font-weight: bold;
+}
+legend span {
+    display: block;
+    margin: -20px;
+    background: #fff;
+    padding: 0px 20px;
+}
+
+/** ALT VERSION **/
+form.alt fieldset {
+    background: #eef;
+}
+form.alt legend {
+    box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+}
+form.alt legend span {
+    margin: -20px -15px;
+}
+
+.hide{
+
+visibility: hidden
+
+}
+
+root { 
+    display: block;
+}
+

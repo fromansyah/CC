@@ -1,0 +1,77 @@
+/* 
+    Document   : tabbed_new
+    Created on : 15 Agu 12, 13:09:18
+    Author     : Firat
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#tabs {
+	border:1px solid #ccc; 
+	height:28px; 
+	/*background:#6985bb;*/ 
+        background-image: linear-gradient(bottom, rgb(214,220,240) 0%, rgb(54,62,111) 45%);
+        background-image: -o-linear-gradient(bottom, rgb(214,220,240) 0%, rgb(54,62,111) 45%);
+        background-image: -moz-linear-gradient(bottom, rgb(214,220,240) 0%, rgb(54,62,111) 45%);
+        background-image: -webkit-linear-gradient(bottom, rgb(214,220,240) 0%, rgb(54,62,111) 45%);
+        background-image: -ms-linear-gradient(bottom, rgb(214,220,240) 0%, rgb(54,62,111) 45%);
+	padding-left: 20px;
+	padding-top:15px;
+	-moz-box-shadow: inset 0 -2px 2px #dadada;
+	-webkit-box-shadow:inset  0 -2px 2px #dadada;
+	box-shadow: inset 0 -2px 2px #dadada;
+	border-top-left-radius:4px;  
+	border-top-right-radius:4px;
+}
+#tabs li {
+	float:left; 
+	list-style:none; 
+	border-top:1px solid #ccc; 
+	border-left:1px solid #ccc; 
+	border-right:1px solid #ccc; 
+	margin-right:5px; 
+	border-top-left-radius:3px;  
+	border-top-right-radius:3px;
+	-moz-box-shadow: 0 -2px 2px #dadada;
+	-webkit-box-shadow:  0 -2px 2px #dadada;
+	box-shadow: 0 -2px 2px #dadada;
+}
+#tabs li a {
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:13px;
+	font-weight:bold; 
+	color:#363E6F; 
+	padding:7px 14px 6px 12px; 
+	display:block; 
+	background:#FFFFFF;  
+	border-top-left-radius:3px; 
+	border-top-right-radius:3px; 
+	text-decoration:none;
+	background: -moz-linear-gradient(top, #ABC1E4, #E6F0FA 10%);  
+	background: -webkit-gradient(linear, 0 0, 0 10%, from(#ABD2E4), to(#F1F6F8));  
+	border-top: 1px solid white; 
+	text-shadow:-1px -1px 0 #fff;
+	outline:none;
+}
+#tabs li a.inactive{
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#666666;
+	background: -moz-linear-gradient(top, #989FCA, #F1F6F8 75%);  
+	background: -webkit-gradient(linear, 0 0, 0 75%, from(#ABD2E4), to(#F1F6F8));  
+	border-top: 1px solid white; 
+}
+#tabs li a:hover, #tabs li a.inactive:hover {
+	border-top: 1px solid #E2E7F0;
+	color:#2B386E;
+}
+.container{ 
+	clear:both; 	 	 
+	padding:10px 0px; 
+	width:664px; 
+	/*background-color:#fff;*/ 
+	text-align:left; 	 
+}
+root { 
+    display: block;
+}
+
